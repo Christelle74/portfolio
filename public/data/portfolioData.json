@@ -1,0 +1,191 @@
+[
+  
+   {
+      "id":1,
+      "name":"Booki",
+      "utils":[
+         "html",
+         "css"
+      ],
+      "utilsIcons":[
+         "fab fa-html5",
+         "fab fa-css3-alt"
+      ],
+      "site":"https://christelle74.github.io/Christelle74-P2_Booki/",
+      "source":"https://github.com/Christelle74/Christelle74-P2_Booki",
+      "info":"Transformer une maquette en site web responsive avec Html et Css",
+      "picture":"media/Booki.png"
+   },
+   {
+      "id":2,
+      "name":"Ohmyfood",
+      "utils":[
+         "html",
+         "css"
+      ],
+      "utilsIcons":[
+         "fab fa-html5",
+         "fab fa-css3-alt"
+      ],
+      "site":"https://christelle74.github.io/ChristellePhilippe_3_28102021/",
+      "source":"https://github.com/Christelle74/ChristellePhilippe_3_28102021",
+      "info":"Dynamiser une page web avec des animations Css.",
+      "picture":"media/OhMyFood.png"
+   },
+   {
+      "id":3,
+      "name":"GameOn",
+      "utils":[
+         "javascript",
+         "html",
+         "css"
+      ],
+      "utilsIcons":[
+         "fab fa-html5",
+         "fab fa-css3-alt", "fab fa-js"
+      ],
+      "site":"https://christelle74.github.io/GameOn-website-FR/",
+      "source":"https://github.com/Christelle74/GameOn-website-FR",
+      "info":"Créer une landing page avec Javascript",
+      "picture":"media/GameOn.png"
+   },
+   {
+      "id":4,
+      "name":"FishEye",
+      "utils":[
+         "javascript",
+         "html",
+         "css"
+      ],
+      "utilsIcons":[
+         "fab fa-html5",
+         "fab fa-css3-alt",
+         "fab fa-js"
+      ],
+      "site":"https://christelle74.github.io/ChristellePhilippe_6_10012022/",
+      "source":"https://github.com/Christelle74/ChristellePhilippe_6_10012022",
+      "info":"Créer un site accessible pour une plateforme de photographes",
+      "picture":"media/Fisheye.png"
+   },
+   {
+      "id":5,
+      "name":"Les Petits Plats",
+      "utils":[
+         "javascript",
+         "html",
+         "css"
+      ],
+      "utilsIcons":[
+      "fab fa-html5",
+      "fab fa-css3-alt",
+      "fab fa-js"
+      ],
+      "site":"https://christelle74.github.io/ChristellePhilippe_7_08032022/",
+      "source":"https://github.com/Christelle74/ChristellePhilippe_7_08032022",
+      "info":"Développer un algorithme de recherche en Javascript",
+      "picture":"media/LesPetitsPlats.png"
+   },
+   {
+      "id":6,
+      "name":"Billed",
+      "utils":[
+         "javascript",
+         "Jest"
+      ],
+      "utilsIcons":[
+         "fab fa-js"
+      ],
+      "source":"https://github.com/Christelle74/P9_Bill_App_13052022",
+      "info":"Débugger et tester un SaaS RH",
+      "picture":"media/Billed.png"
+   },
+   {
+      "id":7,
+      "name":"Learn@Home",
+      "utils":[
+         "figma",
+         "méthode Agile"
+      ],
+      "utilsIcons":[
+         "fab fa-figma",
+         "fab fa-js",
+         "fab fa-react"
+      ],
+      "site":"https://www.figma.com/proto/hSNIxNNlwO76FKerL7iMea/Learn%40Home?node-id=9%3A28&starting-point-node-id=9%3A28",
+      "info":"Définir les besoins pour une app de soutien scolaire",
+      "picture":"media/Learn@Home.jpg"
+   },
+   {
+      "id":8,
+      "name":"Kasa",
+      "utils":[
+         "javascript",
+         "React",
+         "React Router"
+      ],
+      "utilsIcons":[
+         "fab fa-js",
+         "fab fa-react"
+      ],
+      "source":"https://github.com/Christelle74/PhilippeChristelle_11_Kasa",
+      "info":"Développer une application web avec React et React Router",
+      "picture":"media/Kasa.png"
+   },
+   {
+      "id":9,
+      "name":"SportSee",
+      "utils":[
+         "javascript",
+         "React",
+         "React Router",
+         "Recharts",
+         "JSdocs"
+      ],
+      "utilsIcons":[
+         "fab fa-js",
+         "fab fa-react"
+      ],
+      "source":"https://github.com/Christelle74/PhilippeChristelle_12_SportSee",
+      "info":"Développer un tableau de bord d'analytics avec React",
+      "picture":"media/SportSee.png"
+   },
+   {
+      "id":10,
+      "name":"Argent Bank",
+      "utils":[
+         "javascript",
+         "React",
+         "React Router",
+         "JSdocs",
+         "Redux-Toolkit"
+      ],
+      "utilsIcons":[
+         "fab fa-js",
+         "fab fa-sass",
+         "fab fa-react"
+      ],
+      "source":"https://github.com/Christelle74/PhilippeChristelle_13_Bank-API",
+      "info":"Utiliser une API pour un compte utilisateur bancaire avec React",
+      "picture":"media/Bank-API.png"
+   },
+   {
+      "id":11,
+      "name":"Wealth Health",
+      "utils":[
+         "javascript",
+         "React",
+         "React Router",
+         "JSdocs",
+         "jQuery"
+      ],
+      "utilsIcons":[
+         "fab fa-js",
+         "fab fa-react",
+         "fab fa-npm"
+      ],
+      "site":"https://philippe-christelle-p14-hr-net-9eau.vercel.app/",
+      "source":"http://www.github.com",
+      "info":"Faire passer une librairie jQuery vers React",
+      "picture":"media/HRnet.png"
+   }
+]

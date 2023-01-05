@@ -1,0 +1,33 @@
+{
+    "languages" : [
+        {"id":1, "value": "Html 5", "xp": 16},
+        {"id":2, "value": "Css 3", "xp": 16},
+        {"id":3, "value": "Javascript", "xp": 12}
+    ],
+
+    "frameworks" : [
+        {"id":1, "value": "Sass", "xp": 13},
+        {"id":2, "value": "Bootstrap", "xp": 3},
+        {"id":3, "value": "React", "xp": 2},
+        {"id":4, "value": "Redux-Toolkit", "xp": 1},
+        {"id":5, "value": "Rechart JS", "xp": 2}
+    ],
+
+    "compétences" :[
+        {"id":1, "value": "Anglais"},
+        {"id":2, "value": "Github"},
+        {"id":3, "value": "Figma"},
+        {"id":4, "value": "VSCode"},
+        {"id":5, "value": "MongoDb"},
+        {"id":6, "value": ""},
+        {"id":7, "value": ""}
+    ],
+
+    "softSkills" :[
+        {"id":1, "value": "Autonomie"},
+        {"id":2, "value": "Organisation"},
+        {"id":3, "value": "Concentration"},
+        {"id":4, "value": "Télétravail"},
+        {"id":4, "value": "Patience"}
+    ]
+}
