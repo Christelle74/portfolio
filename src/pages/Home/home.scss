@@ -1,100 +1,55 @@
 
 .home-page{
+
     .text-zone{
-        position: absolute;
-        left: 9rem;
-        top: 32rem;
-        transform: translateY(-50%);
-        width: 40%;
-        max-height: 90%;
-        
-    }
+        h1{
 
-    h1{
-        color: white;
-        font-size: 53px;
-        margin: 0;
-        font-family: 'Coolvetica';
-        font-weight: 400;
-        z-index: 1;
-        position: relative;
-        margin-bottom: 40px;
-        left: 10px;
+            img{
+                width: 40px;
+                margin-left: 20px;
+                margin-bottom: -12px;
+                opacity: 0;
+                height: auto;
+                animation: rotateIn 0.5s linear both;
+                animation-delay: 0.3s;
+            }
+        }
 
-        &::before{
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
+        h2, h3{
+            color:#8d8d8d;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            text-align: justify;
+            animation: fadeIn 1s 1.8s backwards;
+        }
+
+        .btn{
             color: #81F0E5;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -10px;
-            left: -10px;
-            opacity: 0.6;
-            line-height: 10px;
-        }
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            font-family: sans-serif;
+            text-decoration: none;
+            padding: 10px 10px;
+            border: 1px solid #81F0E5;
+            margin: 25px 15px 0 0;
+            float: left;
+            animation: fadeIn 1s 1.8s backwards;
+            white-space: nowrap;
 
-        &::after{
-            content: '<h1/>';
-            font-family: 'La Belle Aurore';
-            color: #81F0E5;
-            font-size: 18px;
-            position: absolute;
-            left: -30px;
-            bottom: -20px;
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
-
-        img{
-            width: 32px;
-            margin-left: 20px;
-            opacity: 0;
-            height: auto;
-            animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
-        }
-    }
-
-    h2{
-        color:#8d8d8d;
-        margin-top: 20px;
-        font-weight: 400;
-        font-size: 11px;
-        font-family: sans-serif;
-        letter-spacing: 3px;
-        animation: fadeIn 1s 1.8s backwards;
-    }
-
-    .btn{
-        color: #81F0E5;
-        font-size: 13px;
-        font-weight: 400;
-        letter-spacing: 4px;
-        font-family: sans-serif;
-        text-decoration: none;
-        padding: 10px 10px;
-        border: 1px solid #81F0E5;
-        margin: 25px 15px 0 0;
-        float: left;
-        animation: fadeIn 1s 1.8s backwards;
-        white-space: nowrap;
-
-        &:hover{
-            background: #81F0E5;
-            color: #022c43;
-            font-weight: 700;
+            &:hover{
+                background: #81F0E5;
+                color: #022c43;
+                font-weight: 700;
+            }
         }
     }
 }
 
 .profile-picture{
-    position: absolute;
-    right: 20rem;
-    top: 32rem;
-    transform: translateY(-50%);
-    width: 50%;
-    max-height:90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,18 +57,17 @@
     border-radius: 50% ;
     height: 380px;
     width: 380px;
-    margin: 0 0px 0 100px;
-    z-index: -999;
+    margin: auto;
 }
 .profile-picture-background{
     height: 90%;
     width: 90%;
-    background-image: url('../../assets/images/christelle1.jpg');
+    background-image: url('../../assets/images/christelle.jpg');
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.7;
+    opacity: 0.4;
     z-index: 1;
 }
 .profile-picture-background:hover{
@@ -122,3 +76,69 @@
 }
 
 
+
+@media screen and (min-width : 993px) and (max-width: 1220px){
+    .home-page{
+        .text-zone{
+            left: 3rem;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+    .profile-picture{
+        right: 5rem;
+        height: 300px;
+        width: 300px;
+    }
+   
+} 
+
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .home-page{
+        .text-zone{
+            left: 3rem;
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+    .profile-picture{
+        right: 5rem;
+        height: 260px;
+        width: 260px;
+    }
+} 
+
+@media screen and (min-width: 376px) and (max-width: 768px){
+    .home-page{
+        .text-zone{
+            left: 3rem;
+        }
+        h1{
+            font-size: 28px;
+        }
+    }
+    .profile-picture{
+        right: 5rem;
+        height: 200px;
+        width: 200px;
+    }
+} 
+
+@media only screen and (max-width: 375px){
+    .home-page{
+        .text-zone{
+            left: 5rem;
+        }
+        h1{
+            font-size: 24px;
+        }
+    }
+    .profile-picture{
+        right: 5rem;
+        height: 180px;
+        width: 180px;
+    }
+}

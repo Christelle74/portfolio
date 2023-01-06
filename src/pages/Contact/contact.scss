@@ -1,6 +1,4 @@
 .contact-form {
-    width: 100%;
-    margin-top: 20px;
 
     ul {
         padding: 0;
@@ -51,10 +49,11 @@
 
     .btn {
         color: #81F0E5;
-        font-size: 11px;
-        letter-spacing: 3px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 2px;
         text-decoration: none;
-        padding: 8px 10px;
+        padding: 10px 10px;
         border: 1px solid #81F0E5;
         border-radius: 4px;
         background: 0 0;
@@ -70,4 +69,9 @@
             font-weight: 700;
         }
     }
+    
+}
+.mail a{
+    color: #81F0E5;
+    font-size: 20px;
 }

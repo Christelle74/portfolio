@@ -31,22 +31,22 @@ const Contact = () => {
     return (
         <>
             <div className='container contact-page'>
-            <div className='text-zone'>
-                <h1>
-                    <AnimatedLetters letterClass={letterClass} strArray={'Contact'.split('')} index={15}/>
-                </h1>
-                <p>
-                    Je suis intéressée par les opportunités de freelance - en particulier par les petits projets. Toutefois, si vous avez d'autres demandes ou
-                    questions, n'hésitez pas non plus à me contacter en utilisant le formulaire ci-dessous.
-                </p>
-                <hr/>
-                <p>
-                    I am interested in freelance opportunities - especially on small or meddium
-                    projects. However, if you have any other requests or
-                    questions, don't hesitate to contact me using below form either.
-                </p>
-                <div className='contact-form'>
-                    <form ref={form} onSubmit={sendEmail}>
+                <div className='text-zone'>
+                    <h1>
+                        <AnimatedLetters letterClass={letterClass} strArray={'Contact'.split('')} index={15}/>
+                    </h1>
+                    <p>
+                        Je suis intéressée par les opportunités de freelance - en particulier par les petits projets. Toutefois, si vous avez d'autres demandes ou
+                        questions, n'hésitez pas non plus à me contacter en utilisant le formulaire ci-dessous.
+                    </p>
+                    <br />
+                    <p className="mail">
+                        <a href="mailto:c.philippe04@hotmail.com" >c.philippe04@hotmail.com</a>
+                    </p>
+                </div>  
+
+                <div className='aside'>
+                    <form className='contact-form' ref={form} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
                                 <input type="text" name='name' placeholder='Name' required/>
@@ -66,7 +66,7 @@ const Contact = () => {
                         </ul>
                     </form>     
                 </div>
-            </div>
+                
             </div>
             <Loader type='pacman'/>
         </>

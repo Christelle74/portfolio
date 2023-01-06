@@ -16,7 +16,7 @@ const Portfolio = () => {
     return (
         <>
             <div className='container portfolio-page'>
-                <h1 className='portfolio-title text-zone'>
+                <h1 className='text-zone portfolio-title '>
                     <AnimatedLetters letterClass={letterClass} strArray={'Portfolio'.split('')} index={15}/>
                 </h1>
                 <div>

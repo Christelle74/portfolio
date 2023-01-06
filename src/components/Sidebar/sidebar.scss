@@ -16,9 +16,12 @@
             margin: 8px auto;
             width: 50px;
             height: auto;
+            animation: rotateIn 0.5s linear both;
+            animation-delay: 0.3s;
 
             &.sub-logo{
-                width: 50px;
+                margin-top: -10px;
+                width: 70px;
             }
         }
     }

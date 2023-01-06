@@ -30,39 +30,29 @@ const About = () => {
                 <p>
                     Si je devais me définir en une phrase ce serait passionnée de danses latines et de kizomba, aimant les grands espaces et la photographie.
                 </p>
-                <br/>
-            
-                <hr/>
-                <br/>
-                <p> I'm an pationate front-end developer looking for a role in an
-                    established company with the opportunity to work with the latest
-                    technologies on challenging and diverse projects.
-                </p>
-                <p>I am confident, organized, autonomous and I work on improving my knowledge.
-                </p>
-                <p>If I have to define myself in one sentence it would be passionate about Latin dances and zouk, kompa and kizomba, loving wide open spaces and photography.
-                </p>
             </div>
 
-            <div className='cube-container'>
-                <div className='cube-spinner'>
-                    <div className='face1'>
-                        <FontAwesomeIcon icon={faGithub} />
-                    </div>
-                    <div className='face2'>
-                        <FontAwesomeIcon icon={faHtml5} />
-                    </div>
-                    <div className='face3'>
-                        <FontAwesomeIcon icon={faCss3} />
-                    </div>
-                    <div className='face4'>
-                        <FontAwesomeIcon icon={faJsSquare} />
-                    </div>
-                    <div className='face5'>
-                        <FontAwesomeIcon icon={faReact} />
-                    </div>
-                    <div className='face6'>
-                        <FontAwesomeIcon icon={faSass} />
+            <div className='aside'>
+                <div className='cube-container'>
+                    <div className='cube-spinner'>
+                        <div className='face1'>
+                            <FontAwesomeIcon icon={faGithub} />
+                        </div>
+                        <div className='face2'>
+                            <FontAwesomeIcon icon={faHtml5} />
+                        </div>
+                        <div className='face3'>
+                            <FontAwesomeIcon icon={faCss3} />
+                        </div>
+                        <div className='face4'>
+                            <FontAwesomeIcon icon={faJsSquare} />
+                        </div>
+                        <div className='face5'>
+                            <FontAwesomeIcon icon={faReact} />
+                        </div>
+                        <div className='face6'>
+                            <FontAwesomeIcon icon={faSass} />
+                        </div>
                     </div>
                 </div>
             </div>

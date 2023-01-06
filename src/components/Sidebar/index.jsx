@@ -2,9 +2,9 @@ import React from 'react'
 import './sidebar.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoC from '../../assets/images/logo-c.png'
-// import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoSubtitle from '../../assets/images/Christelle.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope, faImage, faWallet, faUtensils, faTools, faToolbox, faBook} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faImage, faTools, faBook} from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Sidebar() {
@@ -12,7 +12,7 @@ export default function Sidebar() {
     <div className='navbar'>
       <Link className='logo' to='/'>        
         <img src={LogoC} alt="Logo" />
-        {/*<img className='sub-logo' src={LogoSubtitle} alt="logo subtitle" /> */}
+        <img className='sub-logo' src={LogoSubtitle} alt="logo subtitle" />
       </Link>
       <nav>
         <NavLink exact='true' activeclassname='active' to="/">
