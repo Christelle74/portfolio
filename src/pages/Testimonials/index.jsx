@@ -14,13 +14,14 @@ const Testimonials = () => {
 
     return (
         <>
-            <div className='container testimonials-page'>
+            <div className='container'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={'Testimonials'.split('')} index={15}/>
                     </h1>
-                    <h2>A venir...</h2>
+                    
                 </div>
+                <div className='aside'><h2>A venir...</h2></div>
             </div>
             <Loader type='pacman'/>
         </>

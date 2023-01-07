@@ -10,7 +10,7 @@
 
 .tags{
     color: #81F0E5;
-    opacity: 0.6;
+    opacity: 0.5;
     position: absolute;
     bottom: 0;
     left: 150px;
@@ -19,7 +19,7 @@
 }
 
 .bottom-tags{
-    bottom: 35px;
+    bottom: 2.5rem;
 }
 .bottom-tag-html{
     margin-left: -15px;
@@ -30,20 +30,22 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-between;
-    width: 80%;
     will-change: contents;
+    width: 90vw;
     height: 90%;
-    min-height: 566px;
     position: absolute;
-    top: 5%;
-    left: 15%;
+    top: 7rem;
+    left: 12rem;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+    overflow: auto;
+    padding-top: 15px;
 
     .text-zone{
         width: 48%;
         height: auto;
+       // margin: auto;
     
         h1{
             color: #81F0E5;
@@ -115,11 +117,13 @@
 
 @media screen and (min-width : 993px) and (max-width: 1220px){
     .container{
-        left: 15%;
 
         .text-zone{
             h1{
                 font-size: 46px;
+            }
+            p{
+                font-size: 16px;
             }
         }
     }
@@ -128,12 +132,14 @@
 
 @media screen and (min-width: 769px) and (max-width: 992px){
     .container{
-        left: 15%;
 
         .text-zone{
             h1{
                 font-size: 40px;
                 margin-top: 20px;
+            }
+            p{
+                font-size: 14px;
             }
         }
     }
@@ -141,10 +147,16 @@
 
 @media screen and (min-width: 376px) and (max-width: 768px){
     .container{
-        left: 25%;
-
+        left: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         .text-zone{
-            width: 90%;
+            width: 70%;
+            
+        padding-top: 10px;
+            
             h1{
                 font-size: 36px;
                 margin-top: 35px;
@@ -154,7 +166,9 @@
             }
         }
         .aside{
-            width: 90%;
+            width: 60%;
+            margin-top: 30px;
+            margin-bottom: 80px;
         }
     }
     
@@ -162,10 +176,14 @@
 
 @media only screen and (max-width: 375px){
     .container{
-        left: 25%;
+        left: 6rem;
+        display: flex;
+        justify-content: center;
 
         .text-zone{
             width: 60%;
+            
+        padding-top: 10px;
             h1{
                 font-size: 30px;
             }
@@ -175,6 +193,8 @@
         }
         .aside{
             width: 60%;
+            margin-top: 30px;
+            margin-bottom: 80px;
         }
     }
 }

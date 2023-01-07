@@ -115,6 +115,9 @@
     .home-page{
         .text-zone{
             left: 3rem;
+            .btn{
+                width: 80%;
+            }
         }
         h1{
             font-size: 28px;
@@ -130,15 +133,16 @@
 @media only screen and (max-width: 375px){
     .home-page{
         .text-zone{
-            left: 5rem;
+            .btn{
+                width: 100%;
+            }
         }
         h1{
-            font-size: 24px;
+            font-size: 20px;
         }
     }
     .profile-picture{
-        right: 5rem;
-        height: 180px;
-        width: 180px;
+        height: 160px;
+        width: 160px;
     }
 }

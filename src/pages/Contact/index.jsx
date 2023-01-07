@@ -30,7 +30,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className='container contact-page'>
+            <div className='container'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={'Contact'.split('')} index={15}/>
