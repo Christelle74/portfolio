@@ -31,7 +31,7 @@ const ProjectCard = ({project}) => {
                                 : ''
                             }
                             {project.source ?
-                                <a href={project.source} rel="noopener noreferrer" className='button' target="blank">Code source</a>
+                                <a href={project.source} rel="noopener noreferrer" className='button' target="blank">Source</a>
                                 : ''
                             }
                             

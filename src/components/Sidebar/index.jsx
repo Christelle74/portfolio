@@ -42,7 +42,7 @@ export default function Sidebar() {
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/christelle-philippe-a687771a3/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/christelle-p-a687771a3/">
             <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
           </a>
         </li>
