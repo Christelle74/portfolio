@@ -16,14 +16,14 @@ const Skills = () => {
 
     return (
         <>
-            <div className='container'>
+            <div className='container skills-page'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={'Hard Skills'.split('')} index={15}/>
                     </h1>
                 </div>
                 
-                <div>
+                <div className='skillsContent'>
                     <SkillsList/>
                 </div>
             </div>

@@ -1,8 +1,3 @@
-.page{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
 
 .top-tags{
     top: 35px;
@@ -13,7 +8,7 @@
     opacity: 0.5;
     position: absolute;
     bottom: 0;
-    left: 150px;
+    left: 20px;
     font-size: 18px;
     font-family: 'La Belle Aurore';
 }
@@ -31,30 +26,28 @@
     align-items: center;
     justify-content:space-between;
     will-change: contents;
-    width: 90vw;
-    height: 90%;
+    //width: 90vw;
+    height: 80vh;
     position: absolute;
-    top: 7rem;
-    left: 12rem;
+    top: 5rem;
+    left: 20rem;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
     overflow: auto;
-    padding-top: 15px;
+    padding-top: 5rem;
 
     .text-zone{
-        width: 48%;
+        width: 40%;
         height: auto;
-       // margin: auto;
     
         h1{
             color: #81F0E5;
-            font-size: 50px;
+            font-size: 40px;
             margin-top: 0;
             font-family: 'Coolvetica';
             font-weight: 400;
             position: relative;
-            margin-bottom: 60px;
             left: 10px;
         
 
@@ -76,7 +69,7 @@
                 line-height: 18px;
                 position: absolute;
                 left: -30px;
-                bottom: -20px;
+                bottom: -25px;
                 margin-left: 20px;
                 opacity: 0.6;
             }
@@ -108,7 +101,7 @@
         }
     }
     .aside{
-        width: 48%;
+        width: 58%;
         height: auto;
     }
 }
@@ -120,7 +113,7 @@
 
         .text-zone{
             h1{
-                font-size: 46px;
+                font-size: 38px;
             }
             p{
                 font-size: 16px;
@@ -135,8 +128,7 @@
 
         .text-zone{
             h1{
-                font-size: 40px;
-                margin-top: 20px;
+                font-size: 34px;
             }
             p{
                 font-size: 14px;
@@ -154,12 +146,10 @@
         
         .text-zone{
             width: 70%;
-            
-        padding-top: 10px;
+            padding-top: 10px;
             
             h1{
-                font-size: 36px;
-                margin-top: 35px;
+                font-size: 30px;
             }
             p{
                 font-size: 14px;

@@ -31,8 +31,9 @@ const Home=()=> {
               <br/>
               <AnimatedLetters letterClass={letterClass} strArray={jobArray} index={22}/>
             </h1>
-            <h2>Developpeur Front-end / JavaScript / React, à la recherche d'un poste en remote et à temps complet</h2>
-            <h3>Je propose également de créer votre site web en freelance</h3>
+            <h2>Developpeur Front-end / JavaScript / React, à la recherche d'un poste en remote et à temps complet.
+            <br />
+            Je propose également de créer votre site web en freelance</h2>
             <div>
               <a className='btn' href='/media/CV_Philippe_Christelle_DeveloppeurFrontEnd.pdf' download="CV_Philippe_Christelle_DeveloppeurFrontEnd.pdf" target="_blank">Télécharger CV</a>
             </div>

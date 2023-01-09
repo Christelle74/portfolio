@@ -7,7 +7,7 @@ import './skills.scss'
 
 const SkillsList = () => {
     return (
-        <div className='skillsContent'>
+        <div>
             <div className='skills'>
                 <h2>Langages Informatiques</h2>
                 <ul>

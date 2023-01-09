@@ -13,7 +13,7 @@ $black: #333;
 
 
 .portfolioContent {
-    width: 100%;
+    width: 95%;
     max-height: 80vh;
 }
 
@@ -88,7 +88,6 @@ $black: #333;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 3rem;
     padding-bottom: 100px;
 
     .project-container {
@@ -238,6 +237,17 @@ $black: #333;
     }
 }
 
+@media screen and (min-width : 993px) and (max-width: 1220px){
+    .portfolioContent{
+        
+        .projects{
+            margin: 0;
+            .project-container{
+                min-width: 250px;
+            }
+        }
+    }
+} 
 
 @media screen and (min-width: 769px) and (max-width: 992px){
     .portfolioContent{
@@ -245,7 +255,7 @@ $black: #333;
         .projects{
             margin: 0;
             .project-container{
-                min-width: 280px;
+                min-width: 240px;
             }
         }
     }
@@ -256,10 +266,11 @@ $black: #333;
     .portfolioContent{
         
         .projects{
-            margin: 0;
+            margin-left: 3.5rem;
 
             .project-container{
                 min-width: 250px;
+                width: 300px;
             }
         }
     }
@@ -269,7 +280,7 @@ $black: #333;
 @media only screen and (max-width: 375px){
     .portfolioContent{
         .projects{
-            margin: 0;
+            margin-left: 5.5rem;
 
             .project-container{
                 min-width: 200px;

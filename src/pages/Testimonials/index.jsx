@@ -14,7 +14,7 @@ const Testimonials = () => {
 
     return (
         <>
-            <div className='container'>
+            <div className='container testimonials-page'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={'Testimonials'.split('')} index={15}/>
