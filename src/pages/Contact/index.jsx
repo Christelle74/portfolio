@@ -17,14 +17,15 @@ const Contact = () => {
     const sendEmail = (e)=>{
         e.preventDefault()
         emailjs
-            .sendForm('contact_service', 'contact_form', form.current, 'SqRbtJu7Zhygbla8e')
-            .then(()=> {
-                alert("Message envoyé avec succès !")
+            .sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
+            .then((result)=> {
+                alert("Message envoyé avec succès !");
+                console.log(result.text);
                 window.location.reload(false)
                 }, 
-                ()=> {
+                (error)=> {
                 alert("Oups ! Une erreur est survenue lors de l'envoi de votre message, essayez encore !")
-
+                console.log(error.text);
                 });
     }    
 
@@ -49,7 +50,7 @@ const Contact = () => {
                     <form className='contact-form' ref={form} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
-                                <input type="text" name='name' placeholder='Name' required/>
+                                <input type="text" name='name' placeholder='Name/Nom' required/>
                             </li>
                             <li className='half'>
                                 <input type="email" name='email' placeholder='Email' required/>
@@ -58,7 +59,7 @@ const Contact = () => {
                                 <input type="text" name='subject' placeholder='Subject/Objet' required/>
                             </li>
                             <li>
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder='Votre/Your message' required></textarea>
+                                <textarea name="message" type="text" id="message" cols="30" rows="10" placeholder='Votre/Your message' required></textarea>
                             </li>
                             <li>
                                 <input type="submit" className='btn' value="Send"/>
