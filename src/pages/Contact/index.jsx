@@ -38,7 +38,7 @@ const Contact = () => {
                     </h1>
                     <p>
                         Je suis intéressée par les opportunités de freelance - en particulier par les petits projets. Toutefois, si vous avez d'autres demandes ou
-                        questions, n'hésitez pas non plus à me contacter en utilisant le formulaire ci-dessous.
+                        questions, n'hésitez pas non plus à me contacter en utilisant le formulaire ci-contre ou le lien ci-dessous.
                     </p>
                     <br />
                     <p className="mail">

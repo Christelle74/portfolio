@@ -37,7 +37,7 @@ const ProjectList = () => {
                     )})
                 }
             </ul> */}
-            
+            <h2>Projets de formation Openclassrooms</h2>
             <div className='projects'>
                 {/* {data?.filter(project=>project.utils.includes(selectedRadio)) */}
                 {    data?.map((project)=>(
