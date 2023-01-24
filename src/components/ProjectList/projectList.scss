@@ -15,6 +15,7 @@ $black: #333;
 .portfolioContent {
     width: 95%;
     max-height: 80vh;
+
 }
 
 // .radioDisplay {
@@ -264,9 +265,17 @@ $black: #333;
 
 @media screen and (min-width: 376px) and (max-width: 768px){
     .portfolioContent{
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3rem;
+
+        h2{
+            font-size: 20px;
+            margin-left: 2rem;
+        }
+
         .projects{
-            margin-left: 3.5rem;
 
             .project-container{
                 min-width: 250px;
@@ -279,8 +288,18 @@ $black: #333;
 
 @media only screen and (max-width: 375px){
     .portfolioContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3.5rem;
+
+        h2{
+            font-size: 16px;
+            margin-left: 5rem;
+        }
+
         .projects{
-            margin-left: 5.5rem;
+            
 
             .project-container{
                 min-width: 200px;
