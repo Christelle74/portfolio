@@ -145,3 +145,16 @@
         }
     }
 }
+
+@media screen and (min-width: 376px) and (max-width: 768px){
+    .navbar{
+        width: 90px;
+    }
+    
+} 
+
+@media only screen and (max-width: 375px){
+    .navbar{
+        width: 90px;
+    }
+}
