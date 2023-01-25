@@ -42,7 +42,7 @@ export default function Logo() {
             className="solid-logo"
             ref={solidLogoRef}
             src={LogoC}
-            alt="JavaScript,  Developer"
+            alt="Christelle Philippe, developpeur, front-end, portfolio"
             />
 
             <svg

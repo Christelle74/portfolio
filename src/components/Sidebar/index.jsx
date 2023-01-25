@@ -11,8 +11,8 @@ export default function Sidebar() {
   return (
     <div className='navbar'>
       <Link className='logo' to='/'>        
-        <img src={LogoC} alt="Logo" />
-        <img className='sub-logo' src={LogoSubtitle} alt="logo subtitle" />
+        <img src={LogoC} alt="Christelle Philippe" />
+        <img className='sub-logo' src={LogoSubtitle} alt="Christelle Philippe" />
       </Link>
       <nav>
         <NavLink exact='true' activeclassname='active' to="/">
