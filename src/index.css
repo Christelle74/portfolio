@@ -13,7 +13,6 @@ body {
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  touch-action : pinch-zoom;
 }
 .page{
   width: 100vw;
@@ -49,15 +48,16 @@ body {
   
 }
 @media screen and (min-width: 376px) and (max-width: 768px){
-  .page{
-    left: 90px;
-    overflow-x: hidden;
+  body{
+    
+  touch-action : pinch-zoom;
   }
   
 } 
 
 @media only screen and (max-width: 375px){
-  .page{
-    left: 90px;
+  body{
+    
+  touch-action : pinch-zoom;
   }
 }
