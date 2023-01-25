@@ -16,7 +16,7 @@ const Skills = () => {
 
     return (
         <>
-            <div className='container skills-page'>
+            <div className='container'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={'Hard Skills'.split('')} index={15}/>
