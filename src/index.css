@@ -47,3 +47,15 @@ body {
   }
   
 }
+@media screen and (min-width: 376px) and (max-width: 768px){
+  .page{
+    left: 90px;
+  }
+  
+} 
+
+@media only screen and (max-width: 375px){
+  .page{
+    left: 90px;
+  }
+}
