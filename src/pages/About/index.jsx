@@ -22,11 +22,13 @@ const About = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={'About me'.split('')} index={15}/>
                 </h1>
                 <p>Après 15 ans d'expérience dans le domaine administratif et comptable, j'ai suivi une formation de 14 mois me permettant d'obtenir le savoir et savoir-faire nécessaires à ma reconversion dans le métier de développeur web. <br />
-                    Plutôt passionnée par la partie 'front-end' d'un site (conception et intégration), je sais néanmoins créer un petit 'back-end' si nécessaire. <br />
-                    Aujourd'hui, je continue de parfaire et d'alimenter mes connaissances et mon expérience tout en créant des projets personnels et professionnels.
-                    Disponible dès le mois de mai 2023
                     <br />
-                    Disponible à partir de mai 2023, je suis à la recherche d'un poste dans une entreprise établie qui me donnerait l'opportunité de travailler avec les dernières technologies, sur des projets variés et stimulants.
+                    Plutôt passionnée par la partie 'front-end' d'un site (conception et intégration), je sais néanmoins créer un petit 'back-end' si nécessaire. <br />
+                    <br />
+                    Aujourd'hui, je continue de parfaire et d'alimenter mes connaissances et mon expérience tout en créant des projets personnels et professionnels.
+                    <br />
+                    <br />
+                    Disponible à partir de fin août 2023, je suis à la recherche d'un poste dans une entreprise établie qui me donnerait l'opportunité de travailler avec les dernières technologies, sur des projets variés et stimulants.
                 </p>
                 <p>
                     De nature enthousiaste, je suis une personne fiable, organisée, autonome et je travaille à améliorer mes connaissances.
